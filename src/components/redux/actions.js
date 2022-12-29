@@ -4,3 +4,9 @@ export const addTodo = data => {
     payload: data,
   };
 };
+export const searchFilterchange = text => {
+  return {
+    type: "filter/searchFilterchange",
+    payload: text,
+  };
+};
